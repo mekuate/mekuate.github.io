@@ -18,9 +18,17 @@ email: giselemekuate@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
  This is my pro website for sharing my projects, toughts on digital experiences.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: gmekuate
-github_username:  mekuate
+url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
+twitter: gmekuate
+github:  mekuate
+linkedin: mekuate
+facebook: giselemekuate
+stackoverflow: mekuate
+avatar: profile.jpg
+author: Gisele Mekuate-Defo
+tel: +237 674001842
+country: Cameroun
+City: Yaounde
 
 # Build settings
 markdown: kramdown
@@ -30,3 +38,6 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+sass:
+    sass_dir: _sass
+    style: compressed

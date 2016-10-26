@@ -1,0 +1,19 @@
+<div class="social">
+<h4>
+	{% if site.github %}
+	<a href="http://github/{{site.github}}" target="_blank"> <span class="fa fa-github"></span></a>
+	{% endif %}
+	{% if site.twitter %}
+	<a href="http://twitter/{{site.twitter}}" target="_blank"> <span class="fa fa-twitter"></span></a>
+	{% endif %}
+	 {% if site.email %}
+	  <a href="mailto:{{ site.email}}"><i class="fa fa-envelope"></i></a>
+    {% endif %}
+     {% if site.linkedin %}
+	  <a href="http://linkedin.com/in/{{ site.linkedin }}" target="_blank"><i class="fa fa-linkedin"></i></a>
+    {% endif %}
+        {% if site.facebook %}
+	  <a href="http://facebook.com/{{ site.facebook }}" target="_blank"><i class="fa fa-facebook"></i></a>
+    {% endif %}
+</h4>
+</div>
