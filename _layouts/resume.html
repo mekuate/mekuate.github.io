@@ -6,15 +6,13 @@ layout: default
 <section id="resume">
 	<div class="container">
     <div class="col-md-3">
-        <img src="{{ site.baseurl }}assets/img/{{site.avatar}}" class="img-circle">
+        <center><img src="{{ site.baseurl }}assets/img/{{site.avatar}}" class="img-square"></center>
         <h3>{{ site.author }}</h3>
        <p>{{site.tel}} </p>
        <p> {{site.email}}</p>
        <p> {{site.City}}, {{site.country}}</p>
-        <p>
-          {% include social.html %}
-        </p>
-        
+      	<p>  <a href="{{ site.baseurl }}assets/docs/{{site.resume}}"><button class="btn btn-md btn-primary"> Download CV </button></a> </p>
+    	<p>{% include social.html %}</p>
     </div>
     <div class="col-md-9">
         {{ content }}

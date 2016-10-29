@@ -13,28 +13,35 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: G.Mekuate
+title: Gisele Mekuate-Defo
 email: giselemekuate@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
  This is my pro website for sharing my projects, toughts on digital experiences.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+host: "127.0.0.1"
+port: "4000"
+paginate: 2
+paginate_path: "/blog/page-:num"
+
+# user profile settings
 twitter: gmekuate
 github:  mekuate
 linkedin: mekuate
 facebook: giselemekuate
-stackoverflow: mekuate
 avatar: profile.jpg
 author: Gisele Mekuate-Defo
-tel: +237 674001842
+tel: +237 674 00 18 42
 country: Cameroun
 City: Yaounde
+resume: resume.pdf
+profile_summary: Gisele Mekuate hold a Master's degree in Information Technology and Communication. She was specialized in mobile computing. She is learning advanced statistics, mathematics,learning machine disciplines as she want to build her career in data analytics. She is a social entrepreneur investing in pig farming where she is member of a pig farmer association into her community.
 
 # Build settings
 markdown: kramdown
 theme: minima
-gems:
-  - jekyll-feed
+gems: [jekyll-feed, jekyll-paginate, jekyll-sitemap, octopress-autoprefixer]
+  
 exclude:
   - Gemfile
   - Gemfile.lock

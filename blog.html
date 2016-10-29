@@ -1,0 +1,22 @@
+---
+
+layout: default
+
+---
+<div class="container">
+		
+        {% for post in site.posts %}
+       <div class="row">
+        	<div class="col-md-6">
+        		<img src="{{site.url}}/assets/img/{{post.image}}" itemprop="image">
+        	</div>
+        	<div class="col-md-6">
+         		<span class="date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</span>
+            	<a href="{{post.url}}"><h2 class="title" itemprop="name">{{ post.title }}</h2></a>
+            	<p class="description" itemprop="description">{{ post.content | strip_html | truncatewords: 30 }}</p>
+            	<a href="{{post.url}}"><span class="btn btn-md btn-primary">Read More</span></a>
+       	 	</div>
+       	 </div>
+         
+  		{% endfor %}
+</div>

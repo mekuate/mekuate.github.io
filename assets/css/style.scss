@@ -4,6 +4,7 @@
 $white_color:#ffffff;
 $menu_color:#6b6b6b;
 $font-family-sans-serif: 'Source Sans Pro', sans-serif;
+$font-size-base:18px;
 
 @import "bootstrap";
 
@@ -22,6 +23,57 @@ $font-family-sans-serif: 'Source Sans Pro', sans-serif;
 }
 .avatar {
   padding-top: 5%;
+}
+/* Blog styling
+*/
+.row{
+padding-bottom: 20px;
+}
+
+.date{
+font-weight: bold;
+}
+.blog-header{
+height: 35em;
+color: $white_color;
+	 span,i{
+		color: $white_color;}
+		h1 {
+    line-height: 1.2;
+  }
+  .blog-header-title{
+  	padding-top:20em;
+  }
+}
+.blog-content{
+padding-top:20px;
+width: 90%;
+  max-width: 767px;
+  margin: 0 auto;
+  @media (min-width: 767px) {
+    width: 55%;
+  }
+}
+.card_profile {
+	margin-top:50px;
+	margin-bottom:50px;
+	
+}
+.nav--white i, .nav--white span{
+padding-top: 50px;
+margin-left: 20px;
+text-transform: uppercase;
+}
+
+/* card profile 
+-------------------------*/
+
+.card_profile{
+position: relative;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    padding: 10px;
+    background: white
+
 }
 
 /* Navbar
