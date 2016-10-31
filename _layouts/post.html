@@ -20,9 +20,9 @@
       {% if page.categories.size > 0 %}
         <span>
           Posted in {{ page.categories | join: ', ' }}
-        </span>
+        </span><br><br>
       {% endif %}
-      <span></span>
+      <span>written in {{page.language}}</span>
     </div>
   </header>
 
