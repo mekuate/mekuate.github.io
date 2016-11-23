@@ -33,6 +33,31 @@ padding-bottom: 20px;
 .date{
 font-weight: bold;
 }
+.resume-projects {
+	height:150px;
+	background-color:$gray;
+	padding-top: 50px;
+	color:$white_color;
+	button, a {
+		margin-top: 20px;
+	
+	}
+}
+.resume-contact{
+	height:150px;
+	background-color:$gray;
+	margin-top: 25px;
+	color:$white_color;
+	button, a {
+		margin-top: 20px;
+	
+	}
+}
+.title_resume{
+	padding-top: 3em;
+	font-weight: bold;
+	font-size: 76px;
+}
 .blog-header{
 height: 35em;
 color: $white_color;
@@ -79,6 +104,7 @@ position: relative;
 	height: 300px;
 	width:100%;
 }
+
 /* Navbar
 -------------------------------------------------- */
 

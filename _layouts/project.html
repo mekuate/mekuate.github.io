@@ -1,0 +1,35 @@
+---
+
+---
+
+ {% include head.html %}
+  {% include header.html %}
+<article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="blog-content">
+    
+     <h1 itemprop="name headline">{{ page.title }}</h1>
+    <div class="container blog-header-title">
+      <span class="date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished"> Update on {{ page.date | date: "%b %-d, %Y" }}</time></span>
+      {% if page.categories.size > 0 %}
+        <span>
+          Posted in {{ page.categories | join: ', ' }}
+        </span><br>
+      {% endif %}
+      <span>written in {{page.language}}</span>
+    </div>
+  </header>
+
+  <section class="container blog-content" itemprop="articleBody">
+  
+    {{ content }}
+  </section>
+  
+	{% include card_profile.html %}
+ 
+
+</article>
+
+
+
+

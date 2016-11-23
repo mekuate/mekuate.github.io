@@ -1,0 +1,25 @@
+---
+
+layout: default
+
+---
+<div class="container blog-content">
+ <h1> Projects List </h1>
+		<ul>
+        {% for post in site.projects %}
+       <div class="row">
+
+        		
+        	<li>
+            	<a href="{{post.url}}"><h4 class="title" itemprop="name">{{ post.title }}</a>
+                	| <i> 
+            	 {% if post.categories.size > 0 %}
+         			  {{ post.categories | join: ', ' }}
+        		{% endif %}
+            	</i></h4>
+            </li>	
+       	 </div>
+         
+  		{% endfor %}
+  		</ul>
+</div>
