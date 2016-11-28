@@ -10,7 +10,7 @@
     
      <h1 itemprop="name headline">{{ page.title }}</h1>
     <div class="container blog-header-title">
-      <span class="date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished"> Update on {{ page.date | date: "%b %-d, %Y" }}</time></span>
+      <span class="date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished"> Updated on {{ page.date | date: "%b %-d, %Y" }}</time></span>
       {% if page.categories.size > 0 %}
         <span>
           Posted in {{ page.categories | join: ', ' }}
@@ -23,8 +23,16 @@
   <section class="container blog-content" itemprop="articleBody">
   
     {{ content }}
+    {% if page.results %}
+     <h3> Results </h3>
+      {% endif %}
   </section>
-  
+  {% if page.results %}
+  <div class="container results-projects">
+ 
+  {{page.results}}
+  </div>
+  {% endif %}
 	{% include card_profile.html %}
  
 

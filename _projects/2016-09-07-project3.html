@@ -1,12 +1,29 @@
 ---
 layout: project
 title: "Gestion des données d'une ONG de sensibilisation de la population par les films"
-date: 2016-10-07
+date: 2016-11-27
 description: 
 categories: ["data Management"]
-language: Français
+language: French
 image: 300.jpg
+results: "<div class='tableauPlaceholder' id='viz1480324488559' style='position: relative; overlay:visible'><noscript><a href='http:&#47;&#47;www.cna-afrique.org'><img alt='Bases des données du CNA-Afrique (2012-2013) ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ci&#47;CinmaNumriqueAmbulant-AfriqueTournes2012-2013&#47;BasesdedonnesduCNA&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='path' value='views&#47;CinmaNumriqueAmbulant-AfriqueTournes2012-2013&#47;BasesdedonnesduCNA?:embed=y&amp;:display_count=y' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ci&#47;CinmaNumriqueAmbulant-AfriqueTournes2012-2013&#47;BasesdedonnesduCNA&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1480324488559');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1020px';vizElement.style.height='1033px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>"
 ---
-
-<h3> Overview of the projects </h3>
-<p> </p>
+<h3> Overview </h3>
+ <p>L'association pan-africaine nommé <a href="http://cna-afrique.org" target="_blank">Cinéma Numérique Ambulant </a>à pour vocation la promotion des films africains et la sensibilisation des populations dans les
+ zones rurales </p>
+ <p>  Constitué des équipes de projections en charge de projections en plein air des films africains aux populations villages, cette association existe en Afrique de l'Ouest, du Centre et du Nord.</p>
+ <p> Le projet de gestion de l'information du CNA-Afrique consiste à <b>collecter des données et constituer une base de données unique </b> pour faciliter l'identification des films exploitables, identifier les localités et la participation de la population lors des différentes projections cinématographiques en pleine air. </p>
+  <h3> Methodology </h3>
+  <p> Pour atteindre les objectifs d'une base de données unique et la visualisation de l'ensemble des données de l'association, les activités suivantes ont étés menées:</p>
+  <h4> 1.Collecte des données </h4>
+  <p> Les données étaient principalement présentes dans des rapports d'activités journalières des équipes sur le terrain, dans des fichiers excel (liste des films). <b>La collecte des données existantes a permis d'identifier le type d'informations manipulées et de penser sa structuration </b></p> 
+  <h4> 2.Modélisation des données </h4>
+ <p> Vu la non-uniformité des fiches de rapports entre les équipes de projections des différents pays, une nécessité d'harmoniser les rapports étaient indispensable pour ainsi développer une base de données unique. Pour cela un modèle de rapport journalier de projection a été mise en place prenant en compte toutes les informations nécessaires pour suivre les activités de l'association. Le formulaire du rapport journalier est le résultat de la conception de la base de données suivant la modèle UML (Unified Modelling Language). Par conséquent, <b> le diagramme de classes </b> a été élaboré et ce diagramme a suffit pour concevoir la base de données du CNA </p>
+  <h4> 3.Developpement de la base des données </h4>
+  <p>Après la conception des données, il a suvi le développement de la base de données qui a consisté à la mise en oeuvre du schéma conceptuel (diagramme de classes) dans un système de gestion des bases de données (SGBD), à la numérisation des données (insertion des données) dans le SGBD. </p>
+  <p> A partir de cette étape, la base de données unique du CNA était en place au sein d'un SGBD donc l'accès était possible à partir des requêtes SQL (Structured Query Language) </b> 
+  <h4> 4. Analyse des données: Viz </h4>
+  <blocquote> Avoir des données structurées c'est bien. l'exploiter pour en tirer profit c'est encore mieux </blockquote>
+  <p> Le recours a un outil de visualisation des données a permis de mettre en lumière l'ensemble des questions auxquelles le staff du CNA se posait et a constitué une source d'information et de crédibilité de l'association.</p>
+  <h3> Technology and tools Stack </h3>
+<p> Les technologies et outils  utilisés sont entre autres: <b>StarUML</b> pour la modélisation des données, <b> Mysql/Sequel Pro </b> en tant que SGBD de conception de la base des données. <b>Tableau Public </b> pour la visualisation des données.
