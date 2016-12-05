@@ -13,10 +13,16 @@ $h3-color: violet;
   width: auto;
   max-width: 800px;
   text-align: center;
+   
 }
 
 h4{
 color: $brand-primary;
+}
+.companyname{
+padding-top:120px;
+font-size:176px;
+font-weight:bold;
 }
 
 .social {
@@ -58,11 +64,7 @@ font-weight: bold;
 	
 	}
 }
-.title_resume{
-	padding-top: 3em;
-	font-weight: bold;
-	font-size: 76px;
-}
+
 .blog-header{
 height: 35em;
 color: $white_color;
