@@ -1,15 +1,17 @@
 ---
 
 layout: default
-
+title: Project List - mekuate.com
+permalink: /projects/
 ---
+<div class="container-fluid">
+
+<h1 class="row page_title"> Projects List </h1>
+</div>
 <div class="container blog-content">
- <h1> Projects List </h1>
 		<ul>
         {% for post in site.projects %}
-       <div class="row">
-
-        		
+       <div class="row">	
         	<li>
             	<a href="{{post.url}}"><h4 class="title" itemprop="name">{{ post.title }}</a>
                 	| <i> 

@@ -15,16 +15,30 @@ $h3-color: violet;
   text-align: center;
    
 }
-
+.site-title{
+letter-spacing:1em;
+color:$h3-color;
+font-weight: bold;
+border-bottom:solid 0.5em $h3-color;
+}
 h4{
 color: $brand-primary;
 }
-.companyname{
-padding-top:120px;
-font-size:176px;
-font-weight:bold;
+.title_resume{
+	height:20em;
+	background: violet no-repeat center fixed;
+	margin-bottom:50px;
+	.companyname{
+		padding-top:2em;
+		font-size:50px;
+		color:#ffffff;
+		font-weight:bold;
 }
-
+}
+.container , .container-fluid{
+margin-bottom: 100px;
+margin-top:100px;
+}
 .social {
   padding-top: 12px;
   word-spacing: 15px;
@@ -38,16 +52,13 @@ font-weight:bold;
 /* Blog styling
 */
 .row{
-padding-bottom: 20px;
+margin-bottom: 100px;
 }
 
-.date{
-font-weight: bold;
-}
 .resume-projects {
 	height:150px;
 	background-color:$gray;
-	padding-top: 50px;
+	padding-top: 30px;
 	color:$white_color;
 	button, a {
 		margin-top: 20px;
@@ -67,18 +78,29 @@ font-weight: bold;
 
 .blog-header{
 height: 35em;
-color: $white_color;
-	 span,i{
-		color: $white_color;}
-		h1 {
-    line-height: 1.2;
-  }
-  .blog-header-title{
-  	padding-top:20em;
-  }
 }
+ .header-title{
+  	text-align: center;
+ 	font-weight: bold;
+ 	.tag_blog{
+ 		font-style: italic;
+ 		font-size:18px;
+ 	}
+  	
+  }
+  .page_title{
+  	height:150px;
+	background-color: violet;
+	padding-top: 35px;
+	color:$white_color;
+ 	font-weight: bold;
+ 	margin-bottom: 20px;
+ 	text-align: center;
+ 	
+  }
 .blog-content{
 padding-top:20px;
+margin-bottom: 50px;
 width: 90%;
   max-width: 767px;
   margin: 0 auto;
@@ -122,7 +144,15 @@ position: relative;
 
 /* Navbar
 -------------------------------------------------- */
-
+.navbar{
+	margin-bottom: 5em;
+	margin-top: 2em;
+	.container{
+	margin-bottom: 0px;
+	margin-top:0px;
+	}
+	
+}
 .navbar-static-top {
   margin-bottom: 10px;
 }

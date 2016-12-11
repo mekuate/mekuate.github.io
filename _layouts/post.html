@@ -1,5 +1,5 @@
 ---
-
+title: {% page.title %} - mekuate.com
 ---
 
  {% include head.html %}
@@ -14,18 +14,20 @@
       
     </a>
     
-    <div class="container blog-header-title">
-      <span class="date"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></span>
-      <h1 itemprop="name headline">{{ page.title }}</h1>
-      {% if page.categories.size > 0 %}
-        <span>
-          Posted in {{ page.categories | join: ', ' }}
-        </span><br><br>
-      {% endif %}
-      <span>written in {{page.language}}</span>
-    </div>
   </header>
-
+   <div class="container header-title">
+     
+      <h1 itemprop="name headline">{{ page.title }}</h1>
+     <div class="tag_blog">
+      {% if page.categories.size > 0 %}
+        <span class="fa fa-sm fa-database">&nbsp;
+          Posted in {{ page.categories | join: ', ' }} &nbsp; &nbsp;
+        </span>
+      {% endif %}
+       <span class="fa fa-calendar"> &nbsp; <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></span>
+      &nbsp;  &nbsp; <span class="fa fa-language"> &nbsp;written in {{page.language}}</span>
+    </div>
+	</div>
   <section class="container blog-content" itemprop="articleBody">
     {{ content }}
   </section>
