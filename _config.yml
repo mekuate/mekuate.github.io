@@ -17,7 +17,7 @@ title: mekuate.com
 email: giselemekuate@gmail.com
 description: Sharing my digital Journey in Information Management especially data management, Website Development and online Community Management.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://mekuate.com" # the base hostname & protocol for your site, e.g. http://example.com
 host: "127.0.0.1"
 port: "4000"
 permalink: /blog/:categories/:title
