@@ -20,7 +20,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.mekuate.com" # the base hostname & protocol for your site, e.g. http://example.com
 host: "127.0.0.1"
 port: "4000"
-
+permalink: /:categories/:title
 collections: 
     projects:
      output: true
