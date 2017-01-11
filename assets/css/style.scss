@@ -26,7 +26,7 @@ color: $brand-primary;
 }
 .title_resume{
 	height:20em;
-	background: violet no-repeat center fixed;
+	background: $h3-color no-repeat center fixed;
 	margin-bottom:50px;
 	.companyname{
 		padding-top:2em;
@@ -90,7 +90,7 @@ height: 35em;
   }
   .page_title{
   	height:150px;
-	background-color: violet;
+	background-color: $h3-color;
 	padding-top: 35px;
 	color:$white_color;
  	font-weight: bold;
@@ -113,6 +113,9 @@ width: 90%;
 	margin-top:50px;
 	margin-bottom:50px;
 	
+}
+.project-category{
+
 }
 div#viz1480322194514 .tableauPlaceholder{
 overflow: visible;
