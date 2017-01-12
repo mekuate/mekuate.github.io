@@ -57,7 +57,7 @@ margin-bottom: 100px;
 
 .resume-projects {
 	height:150px;
-	background-color:$gray;
+	background-color: $h3-color;
 	padding-top: 30px;
 	color:$white_color;
 	button, a {
@@ -67,9 +67,10 @@ margin-bottom: 100px;
 }
 .resume-contact{
 	height:150px;
-	background-color:$gray;
+	background-color: $h3-color;
 	margin-top: 20px;
 	color:$white_color;
+	
 	button, a {
 		margin-top: 10px;
 	
