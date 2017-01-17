@@ -90,23 +90,20 @@ height: 35em;
   	
   }
   .page_title{
-  	height:150px;
-	background-color: $h3-color;
-	padding-top: 35px;
-	color:$white_color;
+	color:black;
  	font-weight: bold;
- 	margin-bottom: 20px;
  	text-align: center;
- 	
+ 	margin-bottom: 100px;
+ 	text-transform: uppercase;
   }
 .blog-content{
-padding-top:20px;
+margin-top:20px;
 margin-bottom: 50px;
 width: 90%;
-  max-width: 767px;
+  max-width: 967px;
   margin: 0 auto;
   @media (min-width: 767px) {
-    width: 55%;
+    width: 65%;
   }
 }
 
@@ -219,6 +216,59 @@ position: relative;
     color: $menu_color;
     background-color: $white_color;
   }
+}
+
+/* -------- algolia search CSS-------------
+ ------------------------------------------------------ */
+
+/* Search form */
+.algolia__form {
+  margin-bottom: 1rem;
+}
+ 
+.algolia__input {
+  font-size: 20px;
+  padding:.25rem .5rem .10rem;
+  width: 300px;
+  height: 40px;
+  color: black;
+  margin-left: 5px;
+  margin-right: 15px;
+  margin-top: 5px;
+  
+}
+ 
+/* Search results */
+ 
+.algolia__initial-content {
+  display:block;
+}
+.algolia__initial-content--hidden {
+  display:none;
+}
+.algolia__search-content {
+  display:none;
+}
+.algolia__search-content--active {
+  display:block;
+}
+ 
+.algolia__result-link {
+  font-size: 2.25rem;
+  font-weight:bold;
+  color: $h3-color;
+  text-decoration: underline;
+}
+.algolia__result-date {
+  font-size:1.0rem;
+  font-style:italic;
+}
+.algolia__result-text {
+margin-bottom: 30px;
+}
+.algolia__result-highlight {
+  background: yellow;
+  color:inherit;
 }
 
 

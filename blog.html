@@ -4,11 +4,11 @@ layout: default
 title: Blog - mekuate.com
 permalink: /blog/
 ---
-<div class="container-fluid">
+<div class="container blog-content">
 
-<h1 class="row page_title"> Blog </h1>
-</div>
-<div class="container">
+<h1 class="page_title"> Blog <br>
+</h1>
+
 		
         {% for post in site.posts %}
        <div class="row">
@@ -18,8 +18,7 @@ permalink: /blog/
         	<div class="col-md-6">
          		<span class="date" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</span>
             	<a href="{{post.url}}"><h2 class="title" itemprop="name">{{ post.title }}</h2></a>
-            	<p class="description" itemprop="description">{{ post.content | strip_html | truncatewords: 30 }}</p>
-            	<a href="{{post.url}}"><span class="btn btn-md btn-primary">Read More</span></a>
+            	<a href="{{post.url}}"><span class="btn btn-md btn-primary">Read</span></a>
        	 	</div>
        	 </div>
          

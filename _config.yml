@@ -43,8 +43,15 @@ profile_summary: Gisele Mekuate hold a Master's degree in computer science, spec
 # Build settings
 markdown: kramdown
 theme: minima
-gems: [jekyll-feed, jekyll-paginate, jekyll-sitemap, octopress-autoprefixer, jekyll-admin]
+gems: [jekyll-feed, jekyll-paginate, jekyll-sitemap, octopress-autoprefixer, jekyll-admin, algoliasearch-jekyll]
 
+algolia:
+  application_id: 'K39R7UJ94T'
+  index_name:     'jekyllPROD'
+  read_only_api_key: '97485f8cf12b038a6c81c0f25dfa7de0'
+  excluded_files:
+    - 404.html
+    - index.html
   
 exclude:
   - Gemfile
