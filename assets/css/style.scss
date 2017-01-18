@@ -15,6 +15,10 @@ $h3-color: #B768A2;
   text-align: center;
    
 }
+.blog_title{
+color:$h3-color;
+font-weight: bold;
+}
 .site-title{
 letter-spacing:1em;
 color:$h3-color;
@@ -47,7 +51,7 @@ margin-top:100px;
   color: #000000;
 }
 .avatar {
-  padding-top: 5%;
+  padding-top: 5px;
 }
 /* Blog styling
 */
