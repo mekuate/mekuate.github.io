@@ -9,6 +9,9 @@ $h3-color: #B768A2;
 
 @import "bootstrap";
 
+P, a, li, ul {
+font-size: 20px;
+}
 .about {
   width: auto;
   max-width: 800px;

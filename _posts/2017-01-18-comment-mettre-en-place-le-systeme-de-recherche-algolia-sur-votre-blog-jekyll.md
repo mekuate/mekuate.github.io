@@ -1,7 +1,8 @@
 ---
 title: Comment mettre en place le système de recherche algolia sur votre blog jekyll
 layout: post
-categories: ["website development"]
+categories:
+- website development
 language: French
 image: algolia.png
 ---
@@ -22,7 +23,20 @@ image: algolia.png
 
 <p>Algolia est un service web qui offre un API permettant d’indexer les contenus et offre  un formulaire de recherche sur ces contenus indexés que vous pouvez incorporer sur votre site web. Le résultat est nette et améliore l’expérience utilisateur. </p>
 
-<p>Voici le résultat escompté de votre site contenant algolia SEARCH API:</p>
-<img src='{{site.url}}/assets/img/algoliajekyll.gif' width="700px">
+<blockquote>Voici le résultat escompté de ce tutoriel:
+<img src='{{site.url}}/assets/img/algoliajekyll.gif' width="500px"></blockquote>
 
-<h3> Work in progress </h3>
+<p> Bon allons-y! </p>
+<p> Les étapes suivantes permettront de suivre la mise en oeuvre du resultat ci-dessus: </p>
+<ul>
+<li id="installation"> Installer le plugin Algolia search</li>
+<li id="compte">créer votre compte sur algolia.com et créer la clé API </li>
+<li id="configuration">Configurer </li>
+	<ul>
+	<li id="formulaire"> Créer le formulaire de recherche </li>
+	 <li id="librairie"> ajouter la librairie aljolia.js dans votre thème </li>
+	 <li id="formulaire"> Ajouter la feuille de style CSS Algolia dans votre theme </li>
+	  <li id="layout"> Modifier votre layout default.html present dans le dossier </li>
+	  <li id="reference"> Mettre tout ensemble </li>
+	</ul>
+</ul>
