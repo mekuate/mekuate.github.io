@@ -15,12 +15,14 @@ image: algolia.png
 </ul>
 
 
-<h4> Introduction </h4>
+<h3> Introduction </h3>
 
-<p>Un site web statique à l’avantage d’une très simple à mettre en place mais son coté statique (pas de bases de données) a un inconvénient lorsqu’il faut mettre en place des fonctionnalités comme un système de commentaire, un système de recherche… donc la mise en oeuvre est très intégré pour les sites dynamiques. Cependant, avec l’avancé des technologies API (Application Programming Interface), toutes les fonctionnalités que vous désirez sur votre site web statique existent sous forme de services que vous pouvez intégrer dans votre site web statique.</p>
+<p>Un site web statique à l’avantage d’être simple à mettre en place mais son coté statique (pas de bases de données) a un inconvénient lorsqu’il faut intégrer des fonctionnalités comme un système de commentaire, un système de recherche… à votre site. </p>
+<p> Cependant, <b>avec l’avancé des technologies API (Application Programming Interface), toutes les fonctionnalités que vous désirez sur votre site web statique existent sous forme de services </b> que vous pouvez intégrer dans votre site web statique.</p>
 
-<p>Algolia est un service web qui offre un API permettant d’indexer les contenu et offre  un formulaire de recherche sur ces contenus indexés que vous pouvez mettre sur votre site web. Le résultat est nette et améliore l’expérience utilisateur. </p>
+<p>Algolia est un service web qui offre un API permettant d’indexer les contenus et offre  un formulaire de recherche sur ces contenus indexés que vous pouvez incorporer sur votre site web. Le résultat est nette et améliore l’expérience utilisateur. </p>
 
-<p>Pour intégrer le service de recherche Algolia dans un site web Jekyll, un plugin a été développé par le fournisseur Algolia: <a href="https://github.com/algolia/algoliasearch-jekyll" target="_blank"> https://github.com/algolia/algoliasearch-jekyll</a></p>
+<p>Voici le résultat escompté de votre site contenant algolia SEARCH API:</p>
+<img src='{{site.url}}/assets/img/algoliajekyll.gif' width="700px">
 
 <h3> Work in progress </h3>
