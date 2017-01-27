@@ -20,7 +20,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.mekuate.com" # the base hostname & protocol for your site, e.g. http://example.com
 host: "127.0.0.1"
 port: "4000"
-permalink: /:categories/:title
+permalink: /:title
 collections: 
     projects:
      output: true
@@ -34,6 +34,7 @@ linkedin: mekuate
 facebook: giselemekuate
 avatar: profile.jpg
 author: Gisele Mekuate-Defo
+google_analytics: UA-91028607-1
 tel: +237 674 00 18 42
 country: Cameroun
 City: Yaounde
