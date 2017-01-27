@@ -3,21 +3,46 @@
 ---
 $white_color:#ffffff;
 $menu_color:#6b6b6b;
-$font-family-sans-serif: 'Source Sans Pro', sans-serif;
-$font-size-base:18px;
+$font-family-sans-serif: 'Source Sans Pro', 'Helvetica Neue', sans-serif;
+$font-size-base:20px;
 $h3-color: #B768A2;
+$line-height-base: 1.6;
 
 @import "bootstrap";
 
-P, a, li, ul {
-font-size: 20px;
+$text-color: $gray-light;
+h3 {
+font-weight: bold;
+padding-top: 15px;
+padding-bottom: 15px;
 }
+
 .about {
   width: auto;
   max-width: 800px;
   text-align: center;
    
 }
+.last{
+
+ background-size: cover;
+}
+.head_hire{
+background: url("{{site.baseurl}}/assets/img/bg_img.jpg") repeat-x;
+background-size: cover;
+color: white;
+}
+.participate{
+padding-top: 50px;
+padding-bottom: 50px;
+ background-color: $h3-color;
+}
+.statement{
+font-size:40px;
+font-weight:bold;
+text-align: left;}
+
+
 .blog_title{
 color:$h3-color;
 font-weight: bold;
@@ -28,23 +53,13 @@ color:$h3-color;
 font-weight: bold;
 border-bottom:solid 0.5em $h3-color;
 }
-h4{
-color: $brand-primary;
+.motto{
+	font-size: 50px;
 }
-.title_resume{
-	height:20em;
-	background: $h3-color no-repeat center fixed;
-	margin-bottom:50px;
-	.companyname{
-		padding-top:2em;
-		font-size:50px;
-		color:#ffffff;
-		font-weight:bold;
-}
-}
+
 .container , .container-fluid{
-margin-bottom: 100px;
-margin-top:100px;
+margin-bottom: 20px;
+margin-top:20px;
 }
 .social {
   padding-top: 12px;
@@ -106,8 +121,8 @@ height: 35em;
 .blog-content{
 margin-top:20px;
 margin-bottom: 50px;
-width: 90%;
-  max-width: 967px;
+width: 80%;
+  max-width: 767px;
   margin: 0 auto;
   @media (min-width: 767px) {
     width: 65%;
@@ -119,9 +134,7 @@ width: 90%;
 	margin-bottom:50px;
 	
 }
-.project-category{
 
-}
 div#viz1480322194514 .tableauPlaceholder{
 overflow: visible;
 padding-left:0px;
