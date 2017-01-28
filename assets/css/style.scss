@@ -11,7 +11,7 @@ $line-height-base: 1.6;
 @import "bootstrap";
 
 $text-color: $gray-light;
-h3 {
+h3, h1 {
 font-weight: bold;
 padding-top: 15px;
 padding-bottom: 15px;
@@ -23,20 +23,19 @@ padding-bottom: 15px;
   text-align: center;
    
 }
-.last{
-
- background-size: cover;
+.contact_zone{
+  background-color: $h3-color;
 }
 .head_hire{
 background: url("{{site.baseurl}}/assets/img/bg_img.jpg") repeat-x;
 background-size: cover;
 color: white;
 }
-.participate{
-padding-top: 50px;
-padding-bottom: 50px;
- background-color: $h3-color;
+#box{
+    top:20px;
+  
 }
+
 .statement{
 font-size:40px;
 font-weight:bold;
