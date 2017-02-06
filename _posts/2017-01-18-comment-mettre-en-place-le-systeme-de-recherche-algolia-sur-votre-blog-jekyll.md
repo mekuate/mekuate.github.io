@@ -30,17 +30,17 @@ image: algolia.png
 <h3>Installer le plugin Algolia search </h3>
 <p>Ajouter la commande <code>algoliasearch-jekyll gem  </code> dans la section <code> :jekyll_plugins </code> de votre fichier Gemfile situé à la racine de votre repertoire de site web . Si vous n'avez pas encore le fichier Gemfile, voici le contenu minimum requis pour commencer: 
 </p>
-<p><code>
-gem 'jekyll', '~> 2.5.3' <br>
-group :jekyll_plugins do <br>
-  gem 'algoliasearch-jekyll', '~> 0.8.0'<br>
-end<br>
-</code></p>
+<pre><code>
+gem 'jekyll', '~> 2.5.3' 
+group :jekyll_plugins do 
+  gem 'algoliasearch-jekyll', '~> 0.8.0'
+end
+</code></pre>
 <p>Télécharger  toutes les dépendances avec la commande <code> bundle install. </code></p><p>Ensuite, ajouter <code> algoliasearch-jekyll </code> dans votre fichier <code> _config.yml </code> dans la section <code>  gems </code> comme ceci:<br>
-<code>
+<pre><code>
 gems: <br>
   - algoliasearch-jekyll<br>
-	</code>
+	</code></pre>
 	</p><p> Si tout c'est bien passé, vous devriez executer la commande <code> jekyll help </code> et voir afficher algolia dans la liste des commandes.</p>
 <h3> créer votre compte sur algolia.com et créer la clé API </h3>
 [redaction en cours]
