@@ -1,0 +1,32 @@
+{
+  "techwomen": {
+    "titre":"techwomen program",
+    "description": "Programme de formation pour les femmes entrepreneurs en IT",
+    "categories":"developpement professionnel",
+    "status": "candidatures closes",
+    "periode": "entre novembre et janvier de chaque année",
+    "siteweb": "techwomen.org",
+    "agerequis":"24-35",
+    "pays eligible": "Cameroun, Algerie, Maroc, Senegal",
+    "genre":"femme uniquement"
+    
+    
+    
+    
+    
+  },
+
+  "yali": {
+    
+    "titre":"Young African Leaders Initiative",
+    "description": "Programme de formation en leadership des jeunes africains",
+    "categories":"developpement professionnel",
+    "status": "candidatures closes",
+    "periode": "",
+    "siteweb": "yali.state.gov",
+    "agerequis":"24-35",
+    "pays eligible": "Cameroun, Algerie, Maroc, Senegal",
+    "genre":"femmes et hommes"
+    
+  }
+}

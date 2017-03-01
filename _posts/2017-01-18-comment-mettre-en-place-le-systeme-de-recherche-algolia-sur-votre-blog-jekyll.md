@@ -46,11 +46,20 @@ gems: <br>
 [redaction en cours]
  
 <h3>Créer le formulaire de recherche sur votre site</h3>
-[redaction en cours]
- <h3>ajouter la librairie aljolia.js dans votre thème </h3>
- [redaction en cours]
+<p>créer le fichier recherche.html dans votre dossier _includes. Le fichier recherche.html contient le code HTML suivant:</p>
+<pre><code>
+&lt;div class="container search-form"&gt;
+  &lt;input type="text" class="algolia__input js-algolia__input" autocomplete="off" name="query" placeholder="Search on this site..."  /&gt;
+ &lt;/div&gt;
+ </code></pre>
+<p> Et le résultat est le suivant:  <input type="text" class="algolia__input js-algolia__input" autocomplete="off" name="query" placeholder="Search on this site..."  /></p> <p> NB: Le fichier recherche.html doit être inclus à l'emplacement prévu avec l'instruction  <pre><code> &#123;% include recherche.html  % &#125;</code></pre></p>
+ <h3>ajouter la librairie algolia.js dans votre thème </h3>
+ <p>Télécharger le fichier (ou copier/ coller son contenu)  
+ <a href="https://github.com/algolia/algoliasearch-jekyll-hyde/blob/master/public/js/algolia.js" target="_blank"> algolia.js </a> et le placer dans le dossier javascript (js) où vous sauvegardez vos librairies dans votre theme. Par exemple le chemin <code>assets/js/algolia.js</code> peut contenir la librairie algolia.js. </p>
  <h3>Ajouter la feuille de style CSS Algolia dans votre thème</h3>
- [redaction en cours]
+ <p>  Ajouter le <a href ="https://github.com/algolia/algoliasearch-jekyll-hyde/blob/master/public/css/algolia.css" target="_blank">script css  </a>de Algolia pour configurer l’apparence (Design) du formulaire de recherche et le résultat de recherche dans votre propre fichier CSS ou SCSS.
+
+</p>
  <h3>Modifier votre layout default.html </h3>
  [redaction en cours]
  <h3>Mettre tout ensemble </h3>
