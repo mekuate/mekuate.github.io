@@ -1,0 +1,21 @@
+---
+
+layout: default
+title: Ilimu - Des opportunités de développement professionnels pour jeunes africains
+permalink: /ilimu/
+---
+<div class="container blog-content">
+
+
+<h1 class="page_title"> Ilimu </h1>
+		<ul>
+        {% for data in site.data.opp %}
+       	
+        	<li>
+            	<h4>{{ data.titre }}
+            </li>	
+       	
+         
+  		{% endfor %}
+  		</ul>
+</div>

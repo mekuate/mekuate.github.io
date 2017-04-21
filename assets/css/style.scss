@@ -26,6 +26,12 @@ padding-bottom: 15px;
 .contact_zone{
   background-color: $h3-color;
 }
+.team_zone{
+  background-color: #317873;
+}
+.zone_title{
+text-align: center;
+}
 .head_hire{
 background: url("{{site.baseurl}}/assets/img/bg_img.jpg") repeat-x;
 background-size: cover;
@@ -47,7 +53,7 @@ color:$h3-color;
 font-weight: bold;
 }
 .site-title{
-letter-spacing:1em;
+letter-spacing:0.5em;
 color:$h3-color;
 font-weight: bold;
 border-bottom:solid 0.5em $h3-color;
@@ -61,7 +67,6 @@ margin-bottom: 20px;
 margin-top:20px;
 }
 .social {
-  padding-top: 12px;
   word-spacing: 15px;
 }
 .social h4 > a {
