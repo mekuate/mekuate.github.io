@@ -6,9 +6,9 @@
   {% include header.html %}
 <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header style="background: url('{{site.url}}/assets/img/{{page.image}}') no-repeat center fixed; background-size:cover" class="blog-header">
+  <header>
     
-    <a class="nav nav--white" href="{{ site.baseurl }}/blog.html">
+    <a class="nav nav--white" href="{{ site.baseurl }}/blog/">
       <i class="fa fa-lg fa-arrow-left"></i>
       <span>Back to Posts</span>
       
@@ -26,7 +26,6 @@
       {% endif %}
        <span class="fa fa-calendar"> &nbsp; <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></span>
       &nbsp;  &nbsp; <span class="fa fa-language"> &nbsp;written in {{page.language}}</span>
-      &nbsp;  &nbsp; <span class="fa fa-comment"> <a href="{{page.url}}#disqus_thread">Comments</a> </span>
     </div><hr>
 	</div>
   <section class="container blog-content" itemprop="articleBody">
