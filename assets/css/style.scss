@@ -33,9 +33,9 @@ padding-bottom: 15px;
 text-align: center;
 }
 .head_hire{
-background: url("{{site.baseurl}}/assets/img/bg_img.jpg") repeat-x;
+background: url("{{site.baseurl}}/assets/img/bg_img.jpg") no-repeat;
 background-size: cover;
-color: white;
+height: 500px;
 }
 #box{
     top:20px;
@@ -59,7 +59,11 @@ font-weight: bold;
 border-bottom:solid 0.5em $h3-color;
 }
 .motto{
-	font-size: 50px;
+
+	color:#000000;
+	word-spacing: 15px;
+	font-weight: bold;
+	
 }
 
 .container , .container-fluid{
