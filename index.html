@@ -1,19 +1,98 @@
 ---
-layout: home
-title: mekuate.com
+title: Consulting services
+layout: default
 ---
 
-
-	<div class="container about">
-	  <div class="avatar">
-		<img class="img-circle" src="{{ site.baseurl }}assets/img/{{ site.avatar }}" alt="Responsive image">
-	  </div>
-	  <p>Hi, I'm <strong>{{ site.author }}</strong>, a Software Engineer.</p>
-	  <p>I love all things computer science and maths.</p>
-	  <p>Have a look at some of my working <a href="{{ site.baseurl }}/projects/"> projects</a>.</p>
-	  <p>For more check out my academic &amp; professional <a href="{{ site.baseurl }}/resume">Resume</a>.</p>
-	  <p>Contact me at <a href="http://twitter.com/{{ site.twitter }}">@{{ site.twitter }}</a> or by <a href="mailto:{{ site.email }}">email</a>.</p>
+<div class="container-fluid head_hire">
+	<div class="row">
+	<center> 
+	<h3 class="motto">We work with open data and open technology for solving issues in African communities through creativity and innovation <h3>
 	
-	  {% include social.html %}
-	  {% include disqus.html %}
+	</center>
 	</div>
+</div>
+
+<div class="container blog-content">
+<p> we are <a href ="{{site.baseurl}}/projects/2016-09-07-project3">analysing work impact of NGOs </a> through data visualisation, <a href ="{{site.baseurl}}/projects/2016-09-07-project2">creating website to advocating </a> for climate-smart agriculture in West Africa.
+</p>
+<p>We are now working hard to launch  <b>Kereba </b>- A mobile app for empowering high school students to succeed in their examinations .
+</p><p><i><b>While our projects can be small, They are always impactful.</b></i></p>  
+</div>
+
+<div class="container blog-content">
+
+<h3>  Website for individuals and organisations</h3>
+<p> we are providing  website development services for all. For individual who want a personal or professional website, for startup who want to launch their products or services online and spread their brand,  for NGOs  advocating for change.  we take care of your values and requirements. we love Open Technology like <b> <a href="http://drupal.org" target="_blank">Drupal Content Management System </a>and </b><a href="http://jekyllrb.com" target="_blank"><b>Jekyll Static site generator</a></b> to achieve what you really care about.
+
+<br>
+<h3> <b> Data Management and Visualizations</b></h3>
+<p> we analyse your data from different sources and formats to find insight.  we are using open data tools like <b> Excel, Tableau Public, Google Table Fusion, Inzight tools to put your data alive. </p>
+</div>
+<hr>
+<!--Section: Team v.1-->
+<div class="container-fluid">
+
+
+    <!--Section heading-->
+    <h1 class="zone_title">Our amazing team</h1>
+    <!--First row-->
+    <div class="row text-center">
+
+        <!--First column-->
+        <div class="col-md-6 ">
+            	<img src="{{site.url}}/assets/img/avatar.png" class="img-circle">
+            <h4>Gisele Mekuate-Defo</h4>
+            <h5>Founder/ Web Developer & Data Viz</h5>
+            
+           <p>  <a href="{{ site.baseurl }}assets/docs/Mekuate_cv.pdf" target="_blank"><button class="btn btn-md btn-success"> View my CV </button></a> </p>
+           
+              <!--Facebook-->
+              <a href="http://facebook.com/{{ site.facebook }}" target="_blank"><i class="fa fa-facebook"></i></a> &nbsp;&nbsp;
+            <a href="https://github.com/mekuate" type="button"  target="_blank" class="btn-floating btn-small btn-fb"><i class="fa fa-github"></i></a>&nbsp;&nbsp;
+            <!--twitter-->
+            <a href="http://twitter.com/{{site.twitter}}"  target="_blank" type="button" class="btn-floating btn-small btn-pin"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;
+            <!--linkedin-->
+            <a  href="http://linkedin.com/in/{{ site.linkedin }}" target="_blank" type="button" class="btn-floating btn-small btn-ins"><i class="fa fa-linkedin"></i></a>&nbsp;&nbsp;
+
+
+        </div>
+        <!--/First column-->
+
+        <!--Second column-->
+        <div class="col-md-6">
+
+           
+                <img src="{{site.url}}/assets/img/avatar1.png" class="img-circle">
+            
+            <h4>Fabrice Ndongmo Silatsa</h4>
+            <h5>Web & App Developer</h5>
+            <p>  <a href="{{ site.baseurl }}assets/docs/Ndongmo_cv.pdf" target="_blank"><button class="btn btn-md btn-success"> View my CV </button></a> </p>
+
+
+              <!--Facebook-->
+            <a type="button" class="btn-floating btn-small btn-fb"><i class="fa fa-facebook"></i></a>&nbsp;&nbsp;
+            <!--Pinterest-->
+            <a type="button" class="btn-floating btn-small btn-pin"><i class="fa fa-pinterest"></i></a>&nbsp;&nbsp;
+            <!--Instagram-->
+            <a type="button" class="btn-floating btn-small btn-ins"><i class="fa fa-instagram"></i></a>&nbsp;&nbsp;
+
+
+        </div>
+        <!--/Second column-->
+
+
+    </div>
+    <!--/First row-->
+<!--/Section: Team v.1-->
+</div>
+	<div class="container-fluid contact_zone">
+	<div class="row">
+	<h1 class="zone_title" id="contact"> Contact Us </h1>
+	<div class="col-md-3">
+	</div>
+	<div class="col-md-9">
+	{% include contact_form.html %}
+	</div>
+	
+	</div>
+</div>
