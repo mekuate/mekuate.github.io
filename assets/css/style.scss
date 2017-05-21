@@ -1,7 +1,7 @@
 ---
 
 ---
-$white_color:#ffffff;
+$white_color:#F5F3EE;
 $menu_color:#6b6b6b;
 $font-family-sans-serif: 'Open Sans',sans-serif;
 $font-size-base:20px;
@@ -9,7 +9,9 @@ $h3-color: #B768A2;
 $line-height-base: 1.6;
 
 @import "bootstrap";
-
+body{
+background-color:$white_color;
+}
 $text-color: $gray-light;
 h3, h1 {
 font-weight: bold;
@@ -48,7 +50,7 @@ font-size:30px;
 
 }
 .project-zone{
-background-color: #FFFFAA;
+background-color: #7AB793;
 }
 
 .statement{
