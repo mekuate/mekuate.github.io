@@ -1,5 +1,16 @@
 ---
 title: mekuate.com
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  projects:
+    title: Projects
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 email: giselemekuate@gmail.com
 description: Sharing my digital Journey in Information Management especially data
   management, Website Development and online Community Management.
@@ -8,9 +19,6 @@ url: http://www.mekuate.com
 host: 127.0.0.1
 port: '4000'
 permalink: "/:title"
-collections:
-  projects:
-    output: true
 twitter: gmekuate
 github: mekuate
 linkedin: mekuate

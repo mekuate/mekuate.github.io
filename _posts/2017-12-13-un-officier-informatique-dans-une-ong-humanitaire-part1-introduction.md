@@ -1,8 +1,10 @@
 ---
 title: 'Un officier informatique dans une ONG humanitaire: Part1 - Introduction'
+date: 2017-12-13 08:25:37 Z
+categories:
+- Work
+- experience
 layout: post
-date: '2017-12-13 08:25:37'
-categories: Work experience
 language: French
 ---
 

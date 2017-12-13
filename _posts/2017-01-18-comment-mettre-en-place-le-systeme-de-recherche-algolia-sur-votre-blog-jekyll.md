@@ -1,8 +1,9 @@
 ---
 title: Comment mettre en place le système de recherche algolia sur votre blog jekyll
-layout: post
+date: 2017-01-18 00:00:00 Z
 categories:
 - website development
+layout: post
 language: French
 image: algolia.png
 ---
