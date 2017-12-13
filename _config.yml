@@ -1,62 +1,49 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing these this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+---
 title: mekuate.com
 email: giselemekuate@gmail.com
-description: Sharing my digital Journey in Information Management especially data management, Website Development and online Community Management.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.mekuate.com" # the base hostname & protocol for your site, e.g. http://example.com
-host: "127.0.0.1"
-port: "4000"
-permalink: /:title
-collections: 
-    projects:
-     output: true
-    
-    
-
-# user profile settings
+description: Sharing my digital Journey in Information Management especially data
+  management, Website Development and online Community Management.
+baseurl: ''
+url: http://www.mekuate.com
+host: 127.0.0.1
+port: '4000'
+permalink: "/:title"
+collections:
+  projects:
+    output: true
 twitter: gmekuate
-github:  mekuate
+github: mekuate
 linkedin: mekuate
 facebook: giselemekuate
 avatar: profile.jpg
 author: Gisele Mekuate-Defo
 google_analytics: UA-91028607-1
-tel: +237 674 00 18 42
+tel: "+237 674 00 18 42"
 country: Cameroun
 City: Yaounde
 resume: resume.pdf
-profile_summary: Gisele Mekuate-Defo is the founder of mekuate web&app. she hold a master degree in Information Technmoly and Business Management specialized in mobile computing. hold a Master's degree in computer science, specialized in mobile computing. She is currently learning advanced statistics, mathematics and machine learning disciplines  as she want to build her career in data science.
-
-# Build settings
+profile_summary: Gisele Mekuate-Defo is the founder of mekuate web&app. she hold a
+  master degree in Information Technmoly and Business Management. Founder of Mekuate
+  web&App, she loves digital project and opportunity to learn new technology
 markdown: kramdown
 theme: minima
-gems: [jekyll-feed, jekyll-paginate, jekyll-sitemap, octopress-autoprefixer, jekyll-admin, algoliasearch-jekyll]
-
+gems:
+- jekyll-feed
+- jekyll-paginate
+- jekyll-sitemap
+- octopress-autoprefixer
+- jekyll-admin
+- algoliasearch-jekyll
 algolia:
-  application_id: 'K39R7UJ94T'
-  index_name:     'jekyllPROD'
-  read_only_api_key: '97485f8cf12b038a6c81c0f25dfa7de0'
+  application_id: K39R7UJ94T
+  index_name: jekyllPROD
+  read_only_api_key: 97485f8cf12b038a6c81c0f25dfa7de0
   excluded_files:
-    - 404.html
-    - index.html
-  
+  - 404.html
+  - index.html
 exclude:
-  - Gemfile
-  - Gemfile.lock
+- Gemfile
+- Gemfile.lock
 sass:
-    sass_dir: _sass
-    style: compressed
+  sass_dir: _sass
+  style: compressed
