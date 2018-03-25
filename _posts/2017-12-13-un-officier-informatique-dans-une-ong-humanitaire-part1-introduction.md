@@ -5,6 +5,7 @@ categories:
 - Work
 - experience
 layout: post
+image: 302.png
 language: French
 ---
 
